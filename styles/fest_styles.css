@@ -167,13 +167,7 @@ h6 {
   -webkit-text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
   text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
 }
-h1::selection,
-h2::selection,
-h3::selection,
-h4::selection,
-h5::selection,
-h6::selection {
-}
+
 ::-webkit-input-placeholder {
   font-size: 14px !important;
   font-weight: 500 !important;
@@ -289,7 +283,7 @@ section {
 	}
 	h1,h2,h3,h4,h5,h6{color:#323233;text-transform:uppercase;}
 .navbar-brand  span{
-	color: #81f5ff;
+	color: #ffb606;
 	font-size:25px;font-weight:700;letter-spacing:0.1em;
     font-family: 'Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive;
 }
@@ -309,11 +303,11 @@ section {
     color: #fff;
    font-family: 'Gothic A1', sans-serif;
 }
-.navbar-nav .nav-item .nav-link:hover{color:#81f5ff;}
+.navbar-nav .nav-item .nav-link:hover{color:#ffb606;}
 .navbar-expand-md .navbar-nav .dropdown-menu{
-	border-top:3px solid #81f5ff;
+	border-top:3px solid #ffb606;
 }
-.dropdown-item:hover{background-color:#81f5ff;color:#fff;}
+.dropdown-item:hover{background-color:#ffb606;color:#fff;}
 nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
     -moz-transition: padding-top .3s,padding-bottom .3s;
     transition: padding-top .3s,padding-bottom .3s;
@@ -352,7 +346,7 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
   .home_content {
 	position: absolute;
 	left: 50%;
-	bottom: 19px;
+	bottom: 245px;
 	-webkit-transform: translateX(-50%);
 	-moz-transform: translateX(-50%);
 	-ms-transform: translateX(-50%);
@@ -437,8 +431,7 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
   9. Popular
   *********************************/
   
-  .popular {
-  }
+  
   .course_boxes {
 	margin-top: 68px;
   }

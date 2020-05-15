@@ -596,6 +596,10 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
 
   
   @media (max-width: 768px){
+
+    #home_content{
+      margin-top: 50px;
+    }
     .navbar {
       background: #212529;
   }

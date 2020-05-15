@@ -53,14 +53,10 @@ COLOR PALETTE
 }
 body
 {
-	font-family: 'Roboto', sans-serif;
-	font-size: 14px;
-	font-weight: 400;background: url(../image/background1.jpg);
+
+	background: url(../image/background1.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-size: 100%;
-
-	color: #a5a5a5;
 }
 div
 {

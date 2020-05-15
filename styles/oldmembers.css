@@ -648,7 +648,7 @@ body {
 	width: 100%;
 	background-color: rgba(0,0,0,0.5);
 	color:#ffb606;
-	padding-top: 15px;
+	padding-top: 35px;
 	font-size: 60px;
 	margin-top: 180px;
 	justify-content: center;
@@ -716,7 +716,7 @@ body {
 @media (max-width: 768px) {
     .diamond-grid {
         width: 100%;
-        margin: 80px -10px;
+        margin: 80px -18px;
 	}
 	.navbar {
 		background: #212529;

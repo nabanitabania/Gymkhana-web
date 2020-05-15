@@ -758,6 +758,19 @@ background: url(../image/background1.jpg);
 		margin: 0 25%;
 	}
 
+	.modal-content .d {
+		justify-content: center;
+		margin-top: 10px;
+		align-items: center;
+		text-align: center;
+	}
+
+	#user {
+		display: inline;
+		margin-left: 0px;
+	}
+	
+
 }
 
 

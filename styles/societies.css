@@ -1058,3 +1058,7 @@ h4 span img {
 	height: 50px;
 	width: 50px;
 }
+
+button{
+	margin: 3vh 0;
+}

@@ -55,7 +55,7 @@ body
 {
 	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
-	font-weight: 400;background: url(../image/background.png);
+	font-weight: 400;background: url(../image/background1.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: 100%;
@@ -272,10 +272,11 @@ section
 	font-size:16px;
 	}
 	p{
-	color:#6c6c6f;
-	font-size:1em;
+	color:#030311;
+	font-size:1.5em;
+	margin: 0px 20px;
 	}
-	h1,h2,h3,h4,h5,h6{color:#323233;text-transform:uppercase;}
+	h1,h2,h3,h4,h5,h6{color:#cf7500; text-transform:uppercase;font-size:2.5em;}
 .navbar-brand  span{
 	color: #ffb606;
 	font-size:25px;font-weight:700;letter-spacing:0.1em;
@@ -362,7 +363,7 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
 	font-size: 72px;
 	font-weight: 400;
 	color: #FFFFFF;
-	line-height: 0.5;
+	line-height: 0.85;
 }
 
 /*********************************
@@ -377,7 +378,7 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
 
 .page_section
 {
-	padding-top: 117px;
+	padding-top: 50px;
 	padding-bottom: 117px;
 }
 

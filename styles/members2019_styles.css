@@ -317,6 +317,7 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
 	height: 100%;
   }
   .home_background {
+  background: url(../image/background.jpg);
 	width: 100%;
 	height: 100%;
 	background-repeat: no-repeat;
@@ -326,7 +327,7 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
   .home_content {
 	position: absolute;
 	left: 50%;
-	top: 50%;
+	bottom: 10%;
 	-webkit-transform: translateX(-50%);
 	-moz-transform: translateX(-50%);
 	-ms-transform: translateX(-50%);
@@ -678,6 +679,10 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
   @media (max-width: 768px){
     .navbar {
       background: #212529;
+  }
+
+  .xyz {
+    height: 15300px;
   }
   }
   

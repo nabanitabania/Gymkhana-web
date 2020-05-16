@@ -339,7 +339,7 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
   .home_content {
 	position: absolute;
 	left: 50%;
-	bottom: 245px;
+	bottom: 25px;
 	-webkit-transform: translateX(-50%);
 	-moz-transform: translateX(-50%);
 	-ms-transform: translateX(-50%);
@@ -354,7 +354,7 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
   .home_content h1 {
 	font-size: 72px;
 	font-weight: 400;
-	color: #fff;
+	color: #ffb606;
 	line-height: 0.5;
 	/*font-family:comic san;*/
   }
@@ -604,4 +604,3 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
       background: #212529;
   }
   }
-  

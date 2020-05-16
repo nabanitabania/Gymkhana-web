@@ -374,12 +374,18 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
 	background-size: cover;
 	background-position: center;
 	padding-top: 90px;
+	
 }
 
 .head h1 {
-	margin-top: 220px;
-	color: #fff;
+	margin-top: 300px;
+	color: #ffb606;
 	font-size: 80px;
+	
+   
+    
+	
+
 }
 
 

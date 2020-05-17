@@ -685,4 +685,8 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
     height: 15300px;
   }
   }
-  
+  .logo img
+{
+	width: 50px;
+	height: 50px;
+}

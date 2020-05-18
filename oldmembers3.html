@@ -20,7 +20,7 @@
         <link rel="stylesheet" href="styles/scroll.css">
 
     </head>
-    <body>
+    <body id="div">
         
         
         <div class="super_container">
@@ -879,7 +879,14 @@
             itemSelector : ".item" // the css selector to use to select diamonds-items.
         });
         </script>
-      
+        <script>
+            let bodydiv = document.getElementById('div');
+            let mainId = document.getElementById('collapsibleNavbar');
+            bodydiv.addEventListener('click',clickoutside);
+            function clickoutside(e){
+                mainId.classList.remove('show');
+            }
+        </script>
 
 
     </body>

@@ -20,7 +20,7 @@
 	
 </head>
 
-<body>
+<body id="div">
 
 	<div class="super_container">
 
@@ -728,5 +728,14 @@
 	<script src="js/custom.js"></script>
 	<script src="js/socities.js"></script>
 </body>
+
+<script>
+	let bodydiv = document.getElementById('div');
+	let mainId = document.getElementById('collapsibleNavbar');
+	bodydiv.addEventListener('click',clickoutside);
+	function clickoutside(e){
+		mainId.classList.remove('show');
+	}
+</script>
 
 </html>
